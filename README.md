@@ -15,4 +15,5 @@ The input data is all published by gov.uk. Details of where the latest data can 
 
 # Output data
 gap_data-v6-calib.csv   contains the output from the 'nearest primary' script. 
+
 school-to-idaci.csv     contains the output from the IDACI script.  
