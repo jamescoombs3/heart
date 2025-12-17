@@ -1,7 +1,7 @@
 # heart
 "A data driven method to define the heart of a school's community."
 
-In England, deregulated 'Academy' schools are state funded on the strict basis that they are "at the heart of the community" ... but this isn't defined. 
+The reason this repository has an odd name is because in England, deregulated 'Academy' schools are state funded on the strict basis that they are "at the heart of the community" ... however, the legislature failed to define what "heart" actually means. The statutory requirement to serve the community is therefore entirely performative. This is a data driven method to introduce some objective measures to identify social inclusivity based around entitlement to free school meals.
 
 # Code
 There are two scripts which measure inclusivity against the "local community". There is a longer description of the reasoning behind the mathematical models they use here https://trak.org.uk/mind-the-gap
