@@ -17,21 +17,37 @@ The input data is all published by gov.uk. Details of where the latest data can 
 gap_data-v6-calib.csv   contains the output from the 'nearest primary' script. (This contains the data that most people are likely to be interested in.) It is a CSV file. The first 14 fields come directly from the DfE school level data from census returns. The remaining 3 fields are added by the 'nearest primary' script. A basic description of the fields is as follows: 
 
 URN:  	                Unique reference number
+
 LA:	                    local authority
+
 EstablishmentName:     School name
+
 TypeOfEstablishment	  EG academy converter or voluntary controlled. 
+
 Gender	              Obvious!
+
 ReligiousCharacter	  Faith as recorded by DfE census (may not be accurate)
+
 AdmissionsPolicy	    Selective, non-selective or blanks (which are non-selective). 
+
 SchoolCapacity	      Total capacity
+
 NumberOfPupils	      Number actually on roll
+
 PercentageFSM	        Proportion of those entitled to FSM
+
 TrustSchoolFlag	      Relates to academy status.
+
 Full_Address	       Obvious!
+
 ParliamentaryConstituency	 Obvious!
+
 UrbanRural	         Obvious!
+
 localFSM	          Based on primary schools in the area. 
+
 gap	                The difference between the school and the "local" FSM
+
 cat	                A categorical quantile used to describe the gap. 
 
 
