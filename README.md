@@ -52,7 +52,8 @@ The input data is all published by gov.uk. Details of where the latest data can 
 
 
 # Output data using Income Deprivation Affecting Children Index as a reference. 
-school-to-idaci.csv     contains the output from the IDACI script.  This contains 16 fields from DfE census data and one calculated value. A basic description of the fields is as follows:
+**school-to-idaci.csv**     contains the output from the IDACI script.  This contains 16 fields from DfE census data and one calculated value. A basic description of the fields is as follows:
+
 **URN**:   Unique reference number
 
 **LA**:   local authority
