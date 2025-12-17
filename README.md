@@ -14,7 +14,7 @@ Evaluates secondary schools' inclusivity by comparing their %FSM against Income 
 The input data is all published by gov.uk. Details of where the latest data can be found can be found in the comments in the scripts. 
 
 # Output data using primary schools' FSM as a reference. 
-##gap_data-v6-calib.csv
+## gap_data-v6-calib.csv
 This contains the output from the 'nearest primary' script. (This contains the data that most people are likely to be interested in.) It is a CSV file. The first 14 fields come directly from the DfE school level data from census returns. The remaining 3 fields are added by the 'nearest primary' script. A basic description of the fields is as follows: 
 
 **URN**:  	                Unique reference number
@@ -53,7 +53,7 @@ This contains the output from the 'nearest primary' script. (This contains the d
 
 
 # Output data using Income Deprivation Affecting Children Index as a reference. 
-##school-to-idaci.csv
+## school-to-idaci.csv
 This contains the output from the IDACI script.  This contains 16 fields from DfE census data and one calculated value. A basic description of the fields is as follows:
 
 **URN**:   Unique reference number
