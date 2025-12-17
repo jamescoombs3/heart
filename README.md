@@ -14,41 +14,41 @@ Evaluates secondary schools' inclusivity by comparing their %FSM against Income 
 The input data is all published by gov.uk. Details of where the latest data can be found can be found in the comments in the scripts. 
 
 # Output data
-gap_data-v6-calib.csv   contains the output from the 'nearest primary' script. (This contains the data that most people are likely to be interested in.) It is a CSV file. The first 14 fields come directly from the DfE school level data from census returns. The remaining 3 fields are added by the 'nearest primary' script. A basic description of the fields is as follows: 
+**gap_data-v6-calib.csv**   contains the output from the 'nearest primary' script. (This contains the data that most people are likely to be interested in.) It is a CSV file. The first 14 fields come directly from the DfE school level data from census returns. The remaining 3 fields are added by the 'nearest primary' script. A basic description of the fields is as follows: 
 
-URN:  	                Unique reference number
+**URN**:  	                Unique reference number
 
-LA:	                    local authority
+**LA**:	                    local authority
 
-EstablishmentName:     School name
+**EstablishmentName**:     School name
 
-TypeOfEstablishment	  EG academy converter or voluntary controlled. 
+**TypeOfEstablishment**:	  EG academy converter or voluntary controlled. 
 
-Gender	              Obvious!
+**Gender**:	              Obvious!
 
-ReligiousCharacter	  Faith as recorded by DfE census (may not be accurate)
+**ReligiousCharacter**:	  Faith as recorded by DfE census (may not be accurate)
 
-AdmissionsPolicy	    Selective, non-selective or blanks (which are non-selective). 
+**AdmissionsPolicy**:	    Selective, non-selective or blanks (which are non-selective). 
 
-SchoolCapacity	      Total capacity
+**SchoolCapacity**:	      Total capacity
 
-NumberOfPupils	      Number actually on roll
+**NumberOfPupils**:	      Number actually on roll
 
-PercentageFSM	        Proportion of those entitled to FSM
+**PercentageFSM**:	        Proportion of those entitled to FSM
 
-TrustSchoolFlag	      Relates to academy status.
+**TrustSchoolFlag**:	      Relates to academy status.
 
-Full_Address	       Obvious!
+**Full_Address**:	       Obvious!
 
-ParliamentaryConstituency	 Obvious!
+**ParliamentaryConstituency**:	 Obvious!
 
-UrbanRural	         Obvious!
+**UrbanRural**:	         Obvious!
 
-localFSM	          Based on primary schools in the area. 
+**localFSM**:	          Based on primary schools in the area. 
 
-gap	                The difference between the school and the "local" FSM
+**gap**:	                The difference between the school and the "local" FSM
 
-cat	                A categorical quantile used to describe the gap. 
+**cat**:	                A categorical quantile used to describe the gap. 
 
 
 school-to-idaci.csv     contains the output from the IDACI script.  
